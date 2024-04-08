@@ -31,6 +31,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
                  "localhost"
                  "market-plants-github-io-8.onrender.com",
+                 "market-plants-github-io-11.onrender.com",
                  "52.41.36.82",
                  "54.191.253.12",
                  "44.226.122.3",
