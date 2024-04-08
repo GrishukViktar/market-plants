@@ -26,9 +26,9 @@ CART_SESSION_ID = 'cart'
 SECRET_KEY = 'django-insecure-r*j*(9a4v$y=5x#j9hk89-p8u^btl8ygc%*75zl@vc=1eh*1&g'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["https://market-plants-github-io-4.onrender.com"]
 
 
 # Application definition
@@ -72,7 +72,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'market_plants.wsgi.application'
+WSGI_APPLICATION = 'market-plants-github-io-5.onrender.com'
 
 
 # Database
